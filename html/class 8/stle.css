@@ -1,0 +1,30 @@
+/* @font-face {
+    font-family: 'Otho';
+    src: url('../YesevaOne-Regular.ttf');
+  }
+  
+  p {
+    font-family: 'Otho';
+    font-size: xx-large;
+  } */
+  /* p{
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  word-spacing: 30px;
+  letter-spacing: 30px;
+  } */
+  /* input{
+    background-color: rgb(244, 52, 164);
+  } */
+  input:hover{
+    background-color: blue;
+  }
+  input:active{
+    background-color: rgb(198, 253, 18);
+  }
+  input:focus{
+    background-color: rgb(9, 144, 135);
+  }
+  
+  
+  

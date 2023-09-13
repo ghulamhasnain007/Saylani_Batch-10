@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Ali';
+    src: url(../../YesevaOne-Regular.ttf);
+}
+
+#head{
+    border-width: 20px;
+    border-style: double;
+    border-color: black;
+}  
+#one{
+    font-family: Ali;
+}
+#first{
+    padding: 0px 0px 0px 50%;
+}
+#second{
+    font-size: xx-large;
+    font-weight: 800;
+    padding: 0px 0px 0px 47%;
+}
+#third{
+    font-size: larger;
+    font-weight: 600;
+    padding: 0px 0px 0px 48%;
+}
+#middle{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: black;
+    border-bottom-color: black;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: rgb(7, 17, 16);
+    padding: 0px 0px 50px 50px;
+}
+#last{
+    padding: 100px 0px 0px 30%; 
+}

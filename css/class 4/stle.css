@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(136, 122, 122);
+}
+
+table{
+    border: 2px solid black; 
+    margin: auto;
+    border-radius: 100px;
+    
+}
+table,td{
+    margin: auto; 
+    border-collapse: collapse;
+    
+}
+
+#first{
+    background-color: black;
+    padding: 20%;
+    
+}
+td{
+    width:30%;
+    text-align: center;
+    border: 1px solid black;
+    background-color: azure;
+    
+}
+#call{
+    background-color: orange;
+}
+.wet{
+    background-color: aqua;
+    margin: auto;
+    width: 50%;
+    margin-top: 10%;
+    padding: 2%;
+    
+    
+}
+#My{
+    border-radius: 100px;
+}
