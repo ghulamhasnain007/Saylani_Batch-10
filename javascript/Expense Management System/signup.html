@@ -5,26 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Users</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
 </head>
-<body>
-    <div>
+<body class="bdy">
+
+    <div class="container ftp">
     <h1>Sign Up Users</h1>
-    
-        <div>
-        <label for="">
+    <br><br>
+        <div class="abc">
+        <label>
             <input type="text" name="" id="sname" placeholder="Name">
         </label>
         <br><br>
-        <label>
+        <label class="abc">
             <input type="text" name="" id="semail" placeholder="Email"><br>
         </label>
-        <br>
-        <label>
+        <br><br>
+        <label class="abc">
             <input type="password" name="" id="spass" placeholder="Password"><br>
         </label>
         </div>
     <br><br>
-        <button onclick="signup()">Sign Up</button><br><br>
+        <button onclick="signup()" class="btn">Sign Up</button><br><br>
 
         <p>If you Already have an account please click <a href="./login.html">here</a></p>
 
@@ -32,5 +36,8 @@
 
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+        
 </body>
 </html>

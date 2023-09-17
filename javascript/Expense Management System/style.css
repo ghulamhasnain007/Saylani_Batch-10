@@ -1,0 +1,62 @@
+.ftp{
+    background-color: black;
+    color: white;
+    margin: auto;
+    /* padding: 50px 155px 180px 150px; */
+    padding-right: 250px;
+    text-align: center;
+    margin-top: 100px;
+    width: fit-content !important;
+    
+    padding: 50px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: lawngreen;
+    box-shadow: 10px 20px 40px rgba(93, 238, 214, 0.856) !important;
+
+}
+.ftp:hover{
+    border-width: 15px;
+    border-color: chartreuse;
+    box-shadow: 50px 50px 60px rgba(93, 238, 214, 0.856) !important;
+
+}
+.bdy{
+    
+    background: radial-gradient(#090f02, #1abc9c);
+    /* background-repeat: no-repeat; */
+    font-family: Arial, sans-serif; /* Choose an appropriate font-family */
+    color: rgb(228, 21, 193);
+}
+
+.abc{
+    border-radius: 120px !important;
+}
+.btn{
+    color : rgb(40, 77, 3) !important;
+    background-color: rgb(41, 230, 16) !important ;
+    border-radius: 20px !important;
+}
+.ftp_2{
+    background-color: black;
+    color: white;
+    margin: auto;
+    /* padding: 50px 155px 180px 150px; */
+    padding-right: 250px;
+    text-align: center;
+    margin-top: 100px;
+    width: fit-content !important;
+    
+    padding: 50px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(26, 212, 236);
+    box-shadow: 10px 20px 40px rgba(7, 243, 164, 0.856) !important;
+}
+.bdy_2{
+    /* background: conic-gradient(red, yellow, green, blue, red); */
+    background: linear-gradient(to right, rgb(182, 5, 236), rgb(247, 146, 168));
+
+}
