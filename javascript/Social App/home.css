@@ -1,0 +1,19 @@
+/* .aaa{
+    display: flex !important;
+    align-self: flex-end !important;
+} */
+
+#ul {
+    list-style: none;
+    padding: 0;
+}
+
+.aaa {
+    margin: 5px;
+    float: right; /* Align buttons to the right */
+}
+
+.list {
+    text-align: left;
+    overflow: auto; /* Clear the float and contain the list item */
+}

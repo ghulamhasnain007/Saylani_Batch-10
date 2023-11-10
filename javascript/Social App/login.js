@@ -1,9 +1,10 @@
 import { auth } from './config.js';
 import { signInWithEmailAndPassword, sendPasswordResetEmail } from 'https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js';
 
-const form = document.querySelector('#form');
-const email = document.querySelector('#email');
-const password = document.querySelector('#password');
+const form = document.querySelector('#siform');
+const naam = document.querySelector('#siname');
+const email = document.querySelector('#siemail');
+const password = document.querySelector('#sipassword');
 const forgotBtn = document.querySelector('#forgot');
 
 form.addEventListener('submit', (event) => {
@@ -51,6 +52,7 @@ sendPasswordResetEmail(auth, sentEmail)
   .catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
-    // ..
+    console.log('error code ==> ',errorCode)
+    console.log('error message ==> ',errorMessage)
   });
 });
