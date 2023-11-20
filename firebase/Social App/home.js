@@ -63,14 +63,14 @@ send.addEventListener('click',()=>{
     li.setAttribute('class', 'list');
 })
 
-function dlt_all(){
+window.dlt_all = function (){
     getul.innerHTML = ''
 }
 
-function del(e){
+window.del = function (e){
     e.parentNode.remove()
 }
-function edit_func(e){
+window.edit_func = function (e){
     var a = prompt('Enter Edit Value',e.parentNode.firstChild.nodeValue)
     e.parentNode.firstChild.nodeValue = a
 }
