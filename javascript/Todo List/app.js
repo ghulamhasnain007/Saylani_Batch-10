@@ -34,6 +34,7 @@ function del(e){
     e.parentNode.remove()
 }
 function edit_func(e){
+    console.log(e.parentNode)
     var a = prompt('Enter Edit Value',e.parentNode.firstChild.nodeValue)
     e.parentNode.firstChild.nodeValue = a
 }

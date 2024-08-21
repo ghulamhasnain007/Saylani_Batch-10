@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(198, 166, 228);
+}
+.container{
+    /* display: flex;
+    justify-content: center; */
+    margin: 5vh;
+}
+
+.title{
+    width: 120vh;
+    padding: 2vh;
+    border-radius: 20px;
+}
+
+#expense{
+    width: 100vh;
+    padding: 2vh;
+    border-radius: 10px;
+}
+.add-expense{
+    display: inline-block;
+}
+
+button{
+    padding: 2vh;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: bisque;
+}
+.list{
+    display: block;
+    display: flex;
+    justify-self: center;
+    
+}
+/* .table{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    margin: 10px;
+} */
